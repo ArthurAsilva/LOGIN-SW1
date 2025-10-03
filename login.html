@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Nave 2F T.I</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="meteors"></div>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-icon">🔐</div>
+            <h1>IDENTIFICAÇÃO DE TRIPULANTE</h1>
+            <p class="subtitle">SISTEMA DE AUTENTICAÇÃO ORBITAL</p>
+        </div>
+        
+        <div class="security-alert">
+            <span class="alert-icon">⚠️</span>
+            ÁREA RESTRITA - APENAS TRIPULANTES AUTORIZADOS
+        </div>
+        
+        <form class="login-form" action="painel.html">
+            <div class="input-group">
+                <label for="username">👨‍🚀 IDENTIFICAÇÃO DE TRIPULANTE</label>
+                <input type="text" id="username" class="form-input" placeholder="DIGITE SEU CÓDIGO DE ACESSO" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">🔒 SENHA DE SEGURANÇA</label>
+                <input type="password" id="password" class="form-input" placeholder="DIGITE SUA SENHA CRIPTOGRAFADA" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-large">
+                <span class="btn-icon">🚀</span>
+                INICIAR MISSÃO
+            </button>
+        </form>
+        
+        <div class="actions">
+            <a href="index.html" class="btn btn-secondary">
+                <span class="btn-icon">🌎</span>
+                VOLTAR À BASE
+            </a>
+        </div>
+    </div>
+</body>
+</html>
